@@ -3,7 +3,7 @@ import src.main.java.org.example.Option;
 
 import java.util.List;
 
-public class Flow  {
+public class Flow implements InterFlow{
     int id;
     String name_msg;
     List<Option> options;
