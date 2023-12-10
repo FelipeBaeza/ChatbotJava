@@ -1,6 +1,6 @@
 package org.example;
 import java.util.List;
-public class Chatbot {
+public class Chatbot implements InterChatbot{
 
     int chatbotID;
     String name;
