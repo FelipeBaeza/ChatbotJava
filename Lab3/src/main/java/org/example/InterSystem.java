@@ -1,7 +1,8 @@
 package org.example;
 
-public interface InterSystem {
-
-    public void systemAddChatbot(Chatbot_20637464_BaezaMunoz chatbot);
+public interface InterSystem_20637464_BaezaMunoz {
+    public void systemAddChatbot(Chatbot chatbot);
+    public void systemLogout();
+    public void systemTalk(String respuesta);
 
 }
